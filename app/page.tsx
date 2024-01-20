@@ -1,13 +1,7 @@
 import Image from 'next/image'
 import Navbar from './components/Navbar'
-import { Borel, Archivo_Black } from 'next/font/google'
-import { arch } from 'os'
-// import { Lemon } from 'next/font/google'
-
-const archivo_Black = Archivo_Black({ 
-  weight: '400',
-  subsets: ['latin'],
-})
+import { Borel } from 'next/font/google'
+// import { arch } from 'os'
 
 const borel = Borel({ 
   weight: '400',
@@ -20,12 +14,16 @@ export default function Home() {
     <main className='text-white'>
       <Navbar />
       <section className='flex h-screen'>
-          <div className='hidden md:block bg-secondary md:w-[32%]'></div>
-          <div className='bg-secondary w-full md:bg-primary md:w-[68%] px-6 pt-44 md:pt-20'>
+          <div className='hidden md:block bg-secondary md:w-[32%] border relative z-10'>
             <div>
-              <h5 className='text-[0.95rem] mb-2'>👋 <span className={borel.className}>Hi, I'm Alfred</span></h5>
-              <div className={archivo_Black.className}>
-                <h1 className='text-[1.9rem] font-bold leading-20'>
+              <Image src="/desktop-2.svg" alt='desktop computer' width={500} height={500} className=' absolute left-44 top-36'/>
+            </div>
+          </div>
+          <div className='bg-secondary w-full md:bg-primary md:w-[68%] px-6 pt-48 md:pt-40 md:pr-24 md:pl-72'>
+            <div className=''>
+              <h5 className='text-base mb-2'>👋 <span className={borel.className}>Hi, I'm Alfred</span></h5>
+              <div>
+                <h1 className='text-[2.4rem] leading-tight tracking-wide md:text-[3.9rem] md:leading-tight'>
                   I like making fun, interactive things with code. I also talk & write about those things.
                 </h1>
               </div>

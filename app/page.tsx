@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Navbar from './components/Navbar'
+import Projects from './components/Projects'
 import { Borel } from 'next/font/google'
 // import { arch } from 'os'
 
@@ -9,12 +10,13 @@ const borel = Borel({
 })
 
 
+
 export default function Home() {
   return (
     <main className='text-white'>
       <Navbar />
       <section className='flex h-screen'>
-          <div className='hidden md:block bg-secondary md:w-[32%] border relative z-10'>
+          <div className='hidden md:block bg-secondary md:w-[32%] relative z-10'>
             <div>
               <Image src="/desktop-2.svg" alt='desktop computer' width={500} height={500} className=' absolute left-44 top-36'/>
             </div>
@@ -30,8 +32,11 @@ export default function Home() {
             </div>
           </div>
       </section>
-      <section className='bg-[#9A3B3B] h-screen'>
-
+      <section className='bg-[#9A3B3B] h-auto pb-10 px-6 '>
+        <div className='pt-24 md:px-60 relative md:h-screen'>
+          <h1 className='text-5xl'>Experience.</h1>
+          <Projects />
+        </div>
       </section>
     </main>
   )

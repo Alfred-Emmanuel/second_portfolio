@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+#stickySection {
+    visibility: hidden;
+  }
+  
+  #stickySection.visible {
+    visibility: visible;
+  }

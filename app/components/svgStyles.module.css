@@ -1,0 +1,29 @@
+/* MyComponent.module.css */
+.svg {
+    fill: #000000;
+  }
+  
+  .face {
+    fill: #8c7e14;
+  }
+  
+  .eye {
+    fill: #8c7e14;
+  }
+  
+  .pupil {
+    fill: #0f3c4d;
+  }
+  
+  .nose {
+    fill: #000000;
+  }
+  
+  .mouth {
+    fill: #a35353b3;
+  }
+  
+  .brow {
+    fill: none;
+  }
+  

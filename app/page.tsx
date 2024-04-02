@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import HeroSvg from "./components/HeroSvg"
 import { Borel } from 'next/font/google'
 // import { arch } from 'os'
 
@@ -22,7 +23,8 @@ export default function Home() {
       <section className='flex h-screen'>
           <div className='hidden md:block bg-secondary md:w-[32%] relative z-10'>
             <div>
-              <Image src="/her.svg" alt='desktop computer' width={500} height={500} className=' absolute left-44 top-36'/>
+              {/* <Image src="/hero.svg" alt='desktop computer' width={500} height={500} className=' absolute left-44 top-36'/> */}
+              <HeroSvg />
             </div>
           </div>
           <div className='bg-secondary w-full md:bg-primary md:w-[68%] px-6 pt-48 md:pt-40 md:pr-24 md:pl-72'>

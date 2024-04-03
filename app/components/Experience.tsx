@@ -10,26 +10,26 @@ const experience: { company: string, title: string, period: string, description:
   {
     company: 'Gahd.ar',
     title: "Full stack web developer",
-    period: "2020 - 2024",
-    description: "    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, blanditiis eaque cumque sint numquam aliquam ipsam quis doloremque ullam, ratione perferendis et totam. Porro hic quibusdam molestias vero, officiis a.",
+    period: "Jul 2023 - Oct 2023 (Contract)",
+    description: "Enhanced existing front and backend implementations while spearheading the introduction of innovative solutions.",
     techStack: "CakePHP. Bootstrap. Javascript. HTML. CSS",
     className: "md:absolute md:w-[30%]"
   },
   {
-    company: 'TechHub',
-    title: "Frontend Developer",
-    period: "2018 - 2020",
-    description: "    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, architecto!",
+    company: 'Pepnops',
+    title: "Intermediate Frontend Developer",
+    period: "2022 - Jun 2023",
+    description: "Led the development of the company's website frontend, fostering collaboration with designers and backend developers to ensure seamless integration.",
     techStack: "React. CSS. HTML. JavaScript",
-    className: "md:absolute right-56 md:w-[30%] h-auto top-16"
+    className: "md:absolute right-56 md:w-[30%] h-auto top-10"
   },
   {
-    company: 'DataSolutions',
-    title: "Data Analyst",
-    period: "2016 - 2018",
-    description: "    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, blanditiis eaque cumque sint numquam aliquam ipsam quis doloremque ullam, ratione perferendis et totam. Porro hic quibusdam molestias vero, officiis a.",
-    techStack: "Python. SQL. Excel",
-    className: "md:absolute right-72 bottom-16 md:w-[30%]"
+    company: 'Strictly Dev',
+    title: "Junior Frontend Developer",
+    period: "2020 - 2022",
+    description: "Initiated as a junior developer, assumed responsibility for guiding interns and facilitating their understanding of development processes and practices.",
+    techStack: "HTML, CSS, Javascript",
+    className: "md:absolute right-72 -bottom-5 md:w-[30%]"
   }
 ];
 
@@ -57,7 +57,7 @@ const Experience = () => {
           </div>
         </div>
       ))}
-
+  
       </>
   )
 }

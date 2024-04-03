@@ -4,14 +4,13 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import HeroSvg from "./components/HeroSvg"
-import { Borel } from 'next/font/google'
-// import { arch } from 'os'
+import { Niconne } from 'next/font/google'
 
-const borel = Borel({ 
+
+const niconne = Niconne({ 
   weight: '400',
   subsets: ['latin'],
 })
-
 
 
 export default function Home() {
@@ -29,10 +28,12 @@ export default function Home() {
           </div>
           <div className='bg-secondary w-full md:bg-primary md:w-[68%] px-6 pt-48 md:pt-40 md:pr-24 md:pl-72'>
             <div className=''>
-              <h5 className='text-base mb-2'>👋 <span className={borel.className}>Hi, I'm Alfred</span></h5>
+              <h5 className={`text-xl mb-2 ${niconne.className}`} style={{ transform: 'skewY(-5deg)' }}>
+                👋 <span className={`font-bold tracking-wider`}>Hi, I&apos;m Alfred</span>
+              </h5>
               <div>
-                <h1 className='text-[2.4rem] leading-tight tracking-wide md:text-[3.9rem] md:leading-tight'>
-                  I like making fun, interactive things with code. I also talk & write about those things.
+                <h1 className='text-[2.25rem] mt-7 leading-tight tracking-wide md:text-[3.9rem] md:leading-tight'>
+                  I build pixel perfect, user-friendly, and captivating websites that leaves a lasting impression.
                 </h1>
               </div>
             </div>

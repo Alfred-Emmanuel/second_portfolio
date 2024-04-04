@@ -43,18 +43,17 @@ const montserrat = Montserrat({
 const Projects = () => {
   return (
     <>
-        <div className='flex justify-between'>
-            <div className='md:w-[50%]'>
+        <div className=''>
+            <div className='lg:w-[50%]'>
                 <h1 className={`text-5xl font-bold mb-8`}>Projects.</h1>
-                <p className={`leading-8 ${montserrat.className}`}>
+                <p className={`leading-8 w-[85%] md:w-[60%] md:text-xl lg:w-auto lg:text-[1.1rem] ${montserrat.className}`}>
                     Explore a diverse array of projects showcasing my expertise and creativity in web development.
                 </p>
             </div>
         </div>
-        
         <div className='mt-10'>
         {projects.map((project, index) => (
-            <div key={index} className='flex flex-col-reverse md:flex-row gap-5 md:gap-0 justify-between mt-16 md:mt-10'>
+            <div key={index} className='flex flex-col-reverse md:flex-row gap-5 md:gap-0 justify-between mt-16 md:mt-20 lg:mt-10'>
                 <div className='w-[60%] md:w-[45%]'>
                     <Image
                         src={project.imageSrc}

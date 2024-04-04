@@ -13,7 +13,7 @@ const experience: { company: string, title: string, period: string, description:
         period: "Jul 2023 - Oct 2023 (Contract)",
         description: "Enhanced existing front and backend implementations while spearheading the introduction of innovative solutions.",
         techStack: "CakePHP. Bootstrap. Javascript. HTML. CSS",
-        className: "md:w-[90%] h-[80%]"
+        className: "md:w-[60%] lg:w-[90%] h-[80%]"
     },
     {
         company: 'Pepnops',
@@ -21,7 +21,7 @@ const experience: { company: string, title: string, period: string, description:
         period: "2022 - Jun 2023",
         description: "Led the development of the company's website frontend, fostering collaboration with designers and backend developers to ensure seamless integration.",
         techStack: "React. CSS. HTML. JavaScript",
-        className: "md:w-[90%] lg:relative top-28"
+        className: " md:w-[60%] lg:w-[90%] lg:relative top-28"
     },
     {
         company: 'Strictly Dev',
@@ -29,7 +29,7 @@ const experience: { company: string, title: string, period: string, description:
         period: "2020 - 2022",
         description: "Initiated as a junior developer, assumed responsibility for guiding interns and facilitating their understanding of development processes and practices.",
         techStack: "HTML, CSS, Javascript",
-        className: "md:w-[90%] lg:relative bottom-16"
+        className: "md:w-[60%] lg:w-[90%] lg:relative bottom-16"
     }
 ];
 

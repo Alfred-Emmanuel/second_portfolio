@@ -4,7 +4,7 @@ function HeroSvg() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="Illustration h-screen ml-32"
+      className="Illustration hidden lg:block lg:h-screen lg:ml-24 "
       preserveAspectRatio="xMinYMin meet"
       viewBox="0 0 374.47 469.64"
     >

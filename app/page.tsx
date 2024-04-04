@@ -19,20 +19,17 @@ export default function Home() {
     
     <main className='text-white relative z-10' >
       <Navbar />
-      <section className='flex h-screen'>
-          <div className='hidden md:block bg-secondary md:w-[32%] relative z-10'>
-            <div>
-              {/* <Image src="/hero.svg" alt='desktop computer' width={500} height={500} className=' absolute left-44 top-36'/> */}
+      <section className='lg:flex h-screen'>
+          <div className='hidden md:block bg-secondary md:w-[32%] z-10'>
               <HeroSvg />
-            </div>
           </div>
-          <div className='bg-secondary w-full md:bg-primary md:w-[68%] px-6 pt-48 md:pt-40 md:pr-24 md:pl-72'>
-            <div className=''>
+          <div className='bg-secondary w-full h-screen lg:bg-primary lg:w-[70%] px-6 pt-48 md:pl-32 md:pr-32 lg:pt-36 lg:pr-24 lg:pl-72'>
+            <div>
               <h5 className={`text-xl mb-2 ${niconne.className}`} style={{ transform: 'skewY(-5deg)' }}>
                 👋 <span className={`font-bold tracking-wider`}>Hi, I&apos;m Alfred</span>
               </h5>
               <div>
-                <h1 className='text-[2.25rem] mt-7 leading-tight tracking-wide md:text-[3.9rem] md:leading-tight'>
+                <h1 className='text-[2.25rem] mt-7 leading-tight tracking-wide md:text-[3.2rem] lg:text-5xl xl:text-[3.6rem] lg:leading-tight '>
                   I build pixel perfect, user-friendly, and captivating websites that leaves a lasting impression.
                 </h1>
               </div>
@@ -40,7 +37,7 @@ export default function Home() {
           </div>
       </section>
       <section className='bg-[#4c6550] h-auto pb-10 px-6 '>
-        <div className='pt-24 md:px-60 relative md:h-screen'>
+        <div className='pt-24 md:px-60 relative md:h-auto'>
           <h1 className={`text-5xl font-bold`}>Experience.</h1>
           <Experience />
         </div>

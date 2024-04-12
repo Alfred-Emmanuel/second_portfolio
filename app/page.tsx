@@ -1,9 +1,9 @@
-import Image from 'next/image'
 import Navbar from './components/Navbar'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import HeroSvg from "./components/HeroSvg"
+import About from './components/About'
 import { Niconne } from 'next/font/google'
 
 
@@ -35,6 +35,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+      </section>
+      <section className='h-screen bg-secondary relative pt-[18%] pb-[15%] px-[8%] lg:px-[14%] lg:pt-[8%] lg:pb-[5%] '>
+        <About />
       </section>
       <section className='bg-[#4c6550] h-auto pb-10 px-6 '>
         <div className='pt-24 lg:px-60 relative md:h-auto'>

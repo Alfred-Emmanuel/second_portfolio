@@ -13,7 +13,7 @@ function About() {
         <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        className="h-[200px] lg:h-[250px] absolute top-4 -left-36 lg:top-[30px] lg:left-[120px] -z-1 "
+        className="h-[200px] lg:h-[250px] absolute top-4 -left-36 md:top-20 lg:top-[30px] lg:left-[120px] -z-1 "
         overflow="visible"
         viewBox="0 0 133.9 97.5"
         >
@@ -46,12 +46,12 @@ function About() {
           ></pattern>
           <path fill="url(#SVGID_1_)" d="M0 0H133.9V90H0z"></path>
         </svg>
-        <div className=' relative z-1 bg-secondary border-2 h-auto  pr-5 pl-2 py-[10%] lg:px-[6%] lg:py-[7%]'>
+        <div className=' relative z-1 bg-secondary border-2 h-auto  pr-5 pl-2 py-[10%] md:px-[6%] md:py-[7%]'>
           <div className="absolute -z-1 -bottom-3 md:-bottom-5 -right-1 w-[98%] h-3 md:h-5 bg-white"></div>
           <div className="absolute top-3 md:top-5 -right-3 md:-right-5 h-full w-3 md:w-5 bg-white"></div>
           <h1 className=' text-4xl md:text-5xl font-bold'>About me.</h1>
           <div className='flex items-center justify-between pt-8'>
-            <div className=' w-full md:w-[55%]'>
+            <div className=' w-full lg:w-[55%]'>
               <p className={`${montserrat.className} text-[0.9rem] md:text-[1.05rem] tracking-wider`}>
                 Back in 2017, i decided to try my hand at blogging and creating content using 
                 "Blogger <span><Image src={`/blogger.png`} width={20} height={15} alt='blogger logo' className='inline-block rounded-md' /></span>"

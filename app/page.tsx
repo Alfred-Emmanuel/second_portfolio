@@ -36,7 +36,7 @@ export default function Home() {
             </div>
           </div>
       </section>
-      <section className='h-screen bg-secondary relative pt-[18%] pb-[15%] px-[8%] lg:px-[14%] lg:pt-[8%] lg:pb-[5%] '>
+      <section className='h-screen md:h-auto lg:h-screen bg-secondary relative pt-[18%] pb-[15%] px-[8%] lg:px-[14%] lg:pt-[8%] lg:pb-[5%] '>
         <About />
       </section>
       <section className='bg-[#4c6550] h-auto pb-10 px-6 '>

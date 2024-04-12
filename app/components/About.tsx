@@ -54,11 +54,11 @@ function About() {
             <div className=' w-full lg:w-[55%]'>
               <p className={`${montserrat.className} text-[0.9rem] md:text-[1.05rem] tracking-wider`}>
                 Back in 2017, i decided to try my hand at blogging and creating content using 
-                "Blogger <span><Image src={`/blogger.png`} width={20} height={15} alt='blogger logo' className='inline-block rounded-md' /></span>"
-                which is where is first encountered coding but i didn't take it as serious as i should have.
+                &quot;Blogger <span><Image src={`/blogger.png`} width={20} height={15} alt='blogger logo' className='inline-block rounded-md' /></span>&quot;
+                which is where is first encountered coding but i didn&apos;t take it as serious as i should have.
                 Fast forward to 2019, i went back to programming and decided to grab it by the neck. <br /> <br />
                 My main focus these days is building accessible, user friendly user interfaces for the web.<br /> <br />
-                When i'm not at the computer, i'm either reading, watching a movie or dealing with exhausting school work.
+                When i&apos;m not at the computer, i&apos;m either reading, watching a movie or dealing with exhausting school work.
                 
               </p>
             </div>
